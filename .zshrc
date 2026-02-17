@@ -39,6 +39,10 @@ alias reload="source ~/.zshrc"
 
 # --- DEV ALIASES ---
 alias crd="composer run dev"
+alias pamcm="php artisan make:command"
+alias padb="php artisan db:backup"
+alias tinker="php artisan tinker"
+alias pest="./vendor/bin/pest"
 alias npmin="npm install"
 alias npmrw="npm run watch"
 alias venv="source venv/bin/activate"
